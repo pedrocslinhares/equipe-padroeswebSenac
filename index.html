@@ -17,6 +17,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
+        background-position: right;
       }
       header {
         height: 250px;
@@ -29,23 +30,35 @@
       }
       main {
         display: flex;
+        align-items: center;
+        max-width: 75vw;
+        height: 45%;
       }
       .personagem {
-        margin-top: 100px;
-        margin-left: 15px;
-        width: 403px;
-        height: 321px;
+        margin-left: 135px;
+        height: 100%;
       }
-      .personagem img {
-        width: inherit;
+      .personagem a {
+        cursor: pointer;
         height: inherit;
       }
+
+      .personagem a .imgps {
+        height: 100%;
+        transform: rotate(31deg);
+      }
+
+      .personagem a .imgps:hover {
+        height: 102%;
+        transition: 0.5s;
+      }
+
       .recuo {
-        margin-left: -200px;
+        margin-left: 3%;
       }
       footer {
         width: 100%;
-        padding: 100px 0 0 50px;
+        padding: 30px 0 0 50px;
         font-family: Arial, Helvetica, sans-serif;
       }
 
@@ -77,19 +90,27 @@
     </header>
     <main>
       <div class="personagem">
-        <img src="imagens/gamora.png" alt="foto da Gamora" />
+        <a>
+          <img class="imgps" src="imagens/gamoraH.png" alt="foto da Gamora" />
+        </a>
       </div>
       <div class="personagem recuo">
-        <img src="imagens/groot.png" alt="foto do Groot" />
+        <a
+          ><img class="imgps" src="imagens/grootH.png" alt="foto do Groot"
+        /></a>
       </div>
       <div class="personagem recuo">
-        <img src="imagens/peter.png" alt="Foto do Peter" />
+        <a
+          ><img class="imgps" src="imagens/peterH.png" alt="Foto do Peter"
+        /></a>
       </div>
       <div class="personagem recuo">
-        <img src="imagens/rocket.png" alt="Foto do Rocket" />
+        <a
+          ><img class="imgps" src="imagens/rocketH.png" alt="Foto do Rocket"
+        /></a>
       </div>
       <div class="personagem recuo">
-        <img src="imagens/drax.png" alt="Foto do Drax" />
+        <a><img class="imgps" src="imagens/draxH.png" alt="Foto do Drax" /></a>
       </div>
     </main>
     <footer>
