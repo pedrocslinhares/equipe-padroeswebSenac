@@ -34,6 +34,12 @@
         max-width: 75vw;
         height: 45%;
       }
+
+      main ul {
+        display: flex;
+        height: 100%;
+        list-style-type: none;
+      }
       .personagem {
         margin-left: 135px;
         height: 100%;
@@ -41,6 +47,16 @@
       .personagem a {
         cursor: pointer;
         height: inherit;
+        text-decoration: none;
+      }
+
+      .personagem a p {
+        margin-top: -45%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        margin-left: -25%;
+        font-weight: 600;
+        text-shadow: 2px 2px 4px black;
       }
 
       .personagem a .imgps {
@@ -89,31 +105,42 @@
       />
     </header>
     <main>
-      <div class="personagem">
-        <a href="equipe/gamora.html">
-          <img class="imgps" src="imagens/gamoraH.png" alt="foto da Gamora" />
-        </a>
-      </div>
-      <div class="personagem recuo">
-        <a href="equipe/groot.html"
-          ><img class="imgps" src="imagens/grootH.png" alt="foto do Groot"
-        /></a>
-      </div>
-      <div class="personagem recuo">
-        <a href="equipe/peter_quill.html"
-          ><img class="imgps" src="imagens/peterH.png" alt="Foto do Peter"
-        /></a>
-      </div>
-      <div class="personagem recuo">
-        <a href="equipe/rocket.html"
-          ><img class="imgps" src="imagens/rocketH.png" alt="Foto do Rocket"
-        /></a>
-      </div>
-      <div class="personagem recuo">
-        <a href="equipe/drax.html"
-          ><img class="imgps" src="imagens/draxH.png" alt="Foto do Drax"
-        /></a>
-      </div>
+      <ul>
+        <li class="personagem">
+          <a href="equipe/gamora.html">
+            <img class="imgps" src="imagens/gamoraH.png" alt="foto da Gamora" />
+            <p>Gamora</p>
+          </a>
+        </li>
+        <li class="personagem recuo">
+          <a href="equipe/groot.html"
+            ><img class="imgps" src="imagens/grootH.png" alt="foto do Groot" />
+            <p>Groot</p></a
+          >
+        </li>
+        <li class="personagem recuo">
+          <a href="equipe/peter_quill.html"
+            ><img class="imgps" src="imagens/peterH.png" alt="Foto do Peter" />
+            <p>Peter Quill</p></a
+          >
+        </li>
+        <li class="personagem recuo">
+          <a href="equipe/rocket.html"
+            ><img
+              class="imgps"
+              src="imagens/rocketH.png"
+              alt="Foto do Rocket"
+            />
+            <p>Rocket</p></a
+          >
+        </li>
+        <li class="personagem recuo">
+          <a href="equipe/drax.html"
+            ><img class="imgps" src="imagens/draxH.png" alt="Foto do Drax" />
+            <p>Drax</p></a
+          >
+        </li>
+      </ul>
     </main>
     <footer>
       <h3>Alunos Participantes</h3>
