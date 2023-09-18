@@ -13,4 +13,5 @@ Integrantes:
 - Pedro Linhares
 - Filipe Bodê
 - Gabriel Feitosa
-- Magno ViCtor
+- Magno Victor
+- Lucas Carvalho
