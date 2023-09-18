@@ -15,3 +15,6 @@ Integrantes:
 - Gabriel Feitosa
 - Magno Victor
 - Lucas Carvalho
+
+Link do projeto no GitHub Pages
+https://pedrocslinhares.github.io/equipe-padroeswebSenac/
